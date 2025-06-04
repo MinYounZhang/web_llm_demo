@@ -1,0 +1,11 @@
+patchright
+apscheduler
+google-generativeai
+openai
+python-dotenv
+pdfplumber
+requests==2.31.0
+logging==0.5.1.2
+typing-extensions==4.9.0
+tenacity>=8.0.0
+beautifulsoup4>=4.12.0 

@@ -1,0 +1,392 @@
+# ==================================
+# Python .gitignore
+# ==================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ==================================
+# 数据文件和日志文件
+# ==================================
+
+# 数据目录
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+output/
+outputs/
+results/
+
+# 日志文件
+logs/
+*.log
+*.out
+*.err
+
+# 临时文件
+temp/
+tmp/
+temporary/
+cache/
+.cache/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# CSV, JSON, XML 数据文件
+*.csv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# 图片和媒体文件（如果是临时生成的）
+screenshots/
+images/
+videos/
+audio/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# ==================================
+# Cookie 和认证文件
+# ==================================
+
+# Cookie 文件
+cookies/
+*.cookies
+*.cookie
+cookie.txt
+cookies.txt
+
+# 认证和密钥文件
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+auth/
+.secrets
+.credentials
+
+# ==================================
+# 开发工具和编辑器
+# ==================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Cursor
+.cursor/
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==================================
+# 操作系统文件
+# ==================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==================================
+# 网络和Web相关
+# ==================================
+
+# Selenium WebDriver
+chromedriver*
+geckodriver*
+edgedriver*
+*.driver
+
+# 浏览器配置
+user_data/
+profile/
+profiles/
+
+# ==================================
+# 配置和密钥文件
+# ==================================
+
+# 环境变量和配置
+.env*
+config.ini
+config.json
+settings.json
+local_settings.py
+
+# API 密钥和令牌
+*.token
+api_keys/
+tokens/
+
+# ==================================
+# 备份和版本文件
+# ==================================
+
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.tmp
+
+# 版本控制
+.svn/
+.hg/
+.bzr/
+
+# ==================================
+# 压缩文件
+# ==================================
+
+# 压缩包
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+
+# ==================================
+# 其他临时和缓存文件
+# ==================================
+
+# Node.js (如果有前端部分)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 其他缓存
+.sass-cache/
+.webpack/
+
+# 进程文件
+*.pid
+*.seed
+*.pid.lock
+
+# 覆盖文件
+coverage/
+.nyc_output
+
+# 测试输出
+test-results/
+test_output/
+test_artifacts/
+
+# 性能测试
+benchmark_results/
+profiling/
+
+# 文档构建
+docs/build/
+documentation/build/ 
