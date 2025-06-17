@@ -152,7 +152,6 @@ class CookieManager:
             else:
                 logger.debug(f"跳过非重要cookie: {cookie.get('name')}")
         
-        logger.info(f"从 {len(cookies)} 个cookie中筛选出 {len(valid_important_cookies)} 个重要cookie")
         return valid_important_cookies
     
     async def save_cookies(self, context: BrowserContext):

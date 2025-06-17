@@ -13,7 +13,7 @@ if not os.path.exists(log_dir):
 # 基本日志配置
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(filename)s:%(lineno)d - %(name)s - %(levelname)s - %(message)s",
+    format="%(asctime)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s",
     handlers=[
         logging.StreamHandler(),  # 输出到控制台
         logging.FileHandler(os.path.join(log_dir, "app.log"), encoding='utf-8')  # 输出到文件

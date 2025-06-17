@@ -5,13 +5,16 @@ from .actions import (
     TypeAction, 
     WaitAction, 
     GetTextAction, 
-    GetAllElementsAction,
-    GetAllElementsActionBs4,
     ScrollAction,
     BrowserBackAction,
     BrowserForwardAction,
-    GetAllTabsAction,
-    SwitchTabAction
+    SwitchTabAction,
+    NewTabAction,
+    CloseTabAction,
+    KeyboardInputAction,
+    SaveToFileAction,
+    RefreshPageAction,
+    WebSearchAction
 )
 from .browser_manager import BrowserManager
 
@@ -22,12 +25,15 @@ __all__ = [
     "TypeAction",
     "WaitAction",
     "GetTextAction",
-    "GetAllElementsAction",
-    "GetAllElementsActionBs4",
     "ScrollAction",
     "BrowserBackAction",
     "BrowserForwardAction",
-    "GetAllTabsAction",
     "SwitchTabAction",
+    "NewTabAction",
+    "CloseTabAction",
+    "KeyboardInputAction",
+    "SaveToFileAction",
+    "RefreshPageAction",
+    "WebSearchAction",
     "BrowserManager"
 ] 
